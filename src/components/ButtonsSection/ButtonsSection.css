@@ -1,0 +1,32 @@
+.buttonSectionClass,
+.buttonSection2Class {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+}
+.buttonSectionClass button {
+  width: 125px;
+}
+.buttonSection2Class button {
+  width: 250px;
+}
+.buttonSectionClass button,
+.buttonSection2Class button {
+  margin-top: 5px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 12px;
+  border: none;
+}
+.buttonSectionClass button:first-child,
+.buttonSection2Class button:first-child {
+  background-color: #ffffff;
+}
+.buttonSectionClass button:last-child {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+.fa-envelope,
+.fa-linkedin {
+  padding-right: 5px;
+}
